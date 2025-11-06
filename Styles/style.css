@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+Body {
+
+  background-color: rgb(178, 214, 238)
+}
+
+.decoracion {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 80px;
+  height: 80px;
+  background: rgba(0, 255, 200, 0.4);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+header {
+  color: rgb(3, 2, 78);
+}
+
+p {
+  /* RGB=red,green,blue  */
+  /* 0---------->F  red/FF0000 */
+  /* 0---------->255 */
+  color: black (0, 0, 0);
+
+}
+
+h1 {
+  font-family: "Lobster Two", sans-serif;
+}
+
+h2 {
+  font-family: "Lobster Two", sans-serif;
+}
+
+.contenedor {
+  display: grid;
+  width: 80%;
+  max-width: 1000px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  position: fixed;
+  left: 50%;
+  background-color: white;
+  border-radius: 8px;
+  z-index: 10;
+  color: rgb(3, 2, 78);
+  font-family: "Lobster Two", sans-serif;
+}
+
+main {
+  background-color: rgba(173, 255, 47, 0.15);
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: "Lobster Two", sans-serif;
+  color: rgb(3, 2, 78);
+}
+
+h2 {
+  font-family: "Lobster Two", sans-serif;
+  color: darkgreen;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: black;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+/* ---------- ASIDE ---------- */
+aside {
+  background-color: rgba(173, 216, 230, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+  font-family: "Playfair Display", serif;
+}
+
+.carousel-item img {
+  height: 400px;
+}
+
+#carouselExampleIndicators {
+  width: 70%;
+  margin: 0 auto;
+}
+.imgBand{
+  width: 70%;
+}
